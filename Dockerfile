@@ -11,5 +11,5 @@ RUN pip install -r requirements.txt
 # Bundle app source
 COPY src /app
 
-EXPOSE 8081
+EXPOSE 8080
 CMD [ "python", "server.py" ]
